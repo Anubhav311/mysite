@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './App.css';
 import Home from './components/home/home';
 import About from './components/about/about';
+import Projects from './components/projects/projects';
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
       <div className="App">
         <Route exact path='/' component={Home}/>
         <Route path='/about' component={About}/>
-        {/* <Route path='/projects' component={Projects}/> */}
+        <Route path='/projects' component={Projects}/>
       </div>
     </Router>
   );

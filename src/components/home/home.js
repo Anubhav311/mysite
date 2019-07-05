@@ -1,7 +1,7 @@
 import React from "react";
 import { useState, useEffect, useRef } from "react";
 import { Link } from 'react-router-dom';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import {library, dom } from '@fortawesome/fontawesome-svg-core';
 // import {fas, faStar, faTrophy, faThumbsUp, faChevronDown, faChevronUp} from '@fortawesome/free-solid-svg-icons';
 // import { faGithubSquare, faLinkedin } from '@fortawesome/free-brands-svg-icons';
@@ -91,7 +91,7 @@ function Home() {
         </div>
         <div className="bottom-menu">
           <div className="who"><Link to='/about' className="who-link">Anubhav Who?</Link></div>
-          <div className="projects"><Link to='/projects' className="projects-link">My Projects</Link></div>
+          <div className="projects-route"><Link to='/projects' className="projects-link">My Projects</Link></div>
         </div>
     </div>
   );

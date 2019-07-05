@@ -124,7 +124,7 @@
     color: #90aae5;
 }
 
-.projects {
+.projects-route {
     font-family: "nimbus-sans-extended",sans-serif;
     font-size: 20px;
     padding: 10px;
@@ -168,7 +168,7 @@
     left: 0; 
 }
 
-.projects:after {
+.projects-route:after {
     background: none repeat scroll 0 0 transparent;
     bottom: 0;
     content: "";
@@ -182,7 +182,7 @@
     margin-bottom: 5px 0;
 }
 
-.projects:hover:after {
+.projects-route:hover:after {
     width: 100%; 
     left: 0; 
 }
