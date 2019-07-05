@@ -1,5 +1,10 @@
 import React from "react";
 import { useState, useEffect, useRef } from "react";
+import { Link } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import {library, dom } from '@fortawesome/fontawesome-svg-core';
+// import {fas, faStar, faTrophy, faThumbsUp, faChevronDown, faChevronUp} from '@fortawesome/free-solid-svg-icons';
+// import { faGithubSquare, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 import './home.css';
 
@@ -14,7 +19,7 @@ function Home() {
   
   const textArray = 
     [
-      "A law professional turned full-stack web developer", 
+      "Law professional turned web developer", 
       "Iron Man fan boy", 
       "Wannabe table tennis player"
     ]  
@@ -66,7 +71,7 @@ function Home() {
               <i className="fab fa-twitter fa-2x"></i>
             </a>
             <a href="https://www.linkedin.com/in/anubhav-bhambri/" target="_blank" rel="noopener noreferrer">
-              <i className="fab fa-linkedin-in fa-2x"></i>
+              {/* <FontAwesomeIcon icon={['fab', 'facebook-f']} /> */}
             </a>
             <a href="https://github.com/Anubhav311" target="_blank" rel="noopener noreferrer">
               <i className="fab fa-github fa-2x"></i>
@@ -85,8 +90,8 @@ function Home() {
           <div className="subheading">{typeWriter.textState}</div>
         </div>
         <div className="bottom-menu">
-          <div className="who">Anubhav Who?</div>
-          <div className="projects">My Projects</div>
+          <div className="who"><Link to='/about' className="who-link">Anubhav Who?</Link></div>
+          <div className="projects"><Link to='/projects' className="projects-link">My Projects</Link></div>
         </div>
     </div>
   );
