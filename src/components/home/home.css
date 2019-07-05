@@ -1,0 +1,232 @@
+.navbar {
+    width: 80%;
+    height: 80px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  @media (max-width: 800px) {
+    .navbar {
+      width: 83%;
+    }
+  }
+  @media (max-width: 550px) {
+    .navbar {
+      width: 90%;
+    }
+  }
+  .navbar .logo {
+    width: 60px;
+    height: 59px;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+  @media (max-width: 550px) {
+    .navbar .logo {
+      width: 77px;
+      margin-top: 3px;
+    }
+  }
+  .navbar .logo img {
+    width: 100%;
+  }
+  .navbar .social-icons {
+    width: 200px;
+    background-color: #90aae5;
+    padding: 15px 20px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+  }
+  @media (max-width: 550px) {
+    .navbar .social-icons {
+      width: 261px;
+    }
+  }
+  
+  .navbar .social-icons .fab {
+    color: hsl(213, 19%, 20%)
+  }
+  
+  .navbar .social-icons a:visited {
+    color: hsl(213, 19%, 20%);
+  }
+  @media (max-width: 550px) {
+    .navbar .social-icons .fab {
+      font-size: 2.7rem;
+      color: hsl(213, 19%, 20%)
+    }
+  }
+  .navbar .social-icons .fab:hover {
+    color: white;
+    cursor: pointer;
+  }
+
+  .navbar .logo {
+    width: 60px;
+    height: 59px;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+  @media (max-width: 550px) {
+    .navbar .logo {
+      width: 77px;
+      margin-top: 3px;
+    }
+  }
+  .navbar .logo img {
+    width: 100%;
+  }
+
+
+
+.bottom-menu{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    margin-left: 0;
+    margin-right: 0;
+    /* background: #90aae5; */
+}
+
+.who {
+    font-family: "nimbus-sans-extended",sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+    padding: 10px;
+    display: inline;
+    bottom: 0px;
+    margin-left: 10%;
+    cursor: pointer;
+    color: #90aae5;
+    /* -webkit-text-stroke-width: 1px; */
+    /* -webkit-text-stroke-color: #90aae5; */
+    /* border: 1px solid #90aae5; */
+}
+
+.projects {
+    font-family: "nimbus-sans-extended",sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    display: inline;
+    bottom: 0px;
+    margin-right: 10%;
+    font-weight: 900;
+    letter-spacing: 2px;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+    cursor: pointer;
+    color: #90aae5;
+}
+
+.who:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 3px;
+    left: 50%;
+    position: relative;
+    background: #90aae5;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+    margin-bottom: 3px 0;
+}
+
+.who:hover:after {
+    width: 100%; 
+    left: 0; 
+}
+
+.projects:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 3px;
+    left: 50%;
+    position: relative;
+    background: #90aae5;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+    margin-bottom: 5px 0;
+}
+
+.projects:hover:after {
+    width: 100%; 
+    left: 0; 
+}
+
+.main-text-container {
+    display: flex;
+    justify-content: center;
+    vertical-align: center;
+    /* margin-top: 10%; */
+}
+
+.underline {
+    display: inline-block;
+}
+
+.underline::after {
+    content: '';
+    height: 3px;
+    display: block;
+    background: #90aae5;
+}
+
+.root-main-text {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hola {
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #ff3f3f;
+    font-family: "nimbus-sans-extended",sans-serif;
+    font-size: 11rem;
+    letter-spacing: -8px;
+    margin: 0 10px 0 0;
+    font-weight: bold;
+    line-height: 0.9;
+}
+  
+.anubhav {
+    font-family: "nimbus-sans-extended",sans-serif;
+    font-size: 4.6rem;
+    margin: 0;
+    line-height: 0.9;
+    letter-spacing: 2px;
+    font-weight: 900;
+}
+
+.heading-subheading-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.subheading {
+    font-weight: bold;
+    margin-top: 20px;
+    font-family: "nimbus-sans-extended",sans-serif;
+    font-size: 2rem;
+    color: black;
+    border-right: 0.2rem solid black;
+}
+
