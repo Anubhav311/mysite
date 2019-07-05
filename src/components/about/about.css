@@ -1,0 +1,88 @@
+.about-container {
+    display: flex;
+    font-family: "nimbus-sans-extended",sans-serif;
+    height: 100vh;
+    background: whitesmoke;
+}
+
+.heading-content-container {
+    width: 80%;
+    margin: 0 50px 0 auto;
+    overflow: auto;
+    height: 100%;
+    padding-right: 15%;
+}
+
+.heading {
+    font-size: 8rem;
+    font-weight: 900;
+    margin: 100px auto;
+}
+
+.logo-about {
+    width: 70px;
+    height: 69px;
+    overflow: hidden;
+    border-radius: 50%;
+    position: fixed;
+    top: 50px;
+    left: 50px;
+}
+
+@media (max-width: 550px) {
+    .navbar .logo-about {
+      width: 77px;
+      margin-top: 3px;
+    }
+  }
+.logo-about img {
+    width: 100%;
+  }
+
+.content h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    display: inline-block;
+}
+
+.content p {
+    font-size: 2rem;
+    font-weight: 800;
+    line-height: 3.5rem;
+    color: #696969;
+    margin-bottom: 200px;
+}
+
+.heading-content-container::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 5px;
+}
+
+/* Handle */
+.heading-content-container::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+.heading-content-container::-webkit-scrollbar-thumb:hover {
+    background: gray;;
+}
+
+.content h1::after {
+    content: '';
+    height: 7px;
+    display: block;
+    background: #ff3f3f;
+    width: 40%;
+    margin: 15px 0px;
+}
+
+.heading-text::after {
+    content: '';
+    height: 15px;
+    display: block;
+    background: #ff3f3f;
+    width: 40%;
+    margin: 25px 0px;
+}
