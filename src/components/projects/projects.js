@@ -10,7 +10,7 @@ function Projects() {
         <div className="about-container">
         <div className="side-nav-about">
                 <div className="logo-about">
-                    <img src={require("../../assets/a.png")} alt="logo" className="name"/>
+                    <a href="/"><img src={require("../../assets/a.png")} alt="logo" className="name"/></a>
                 </div>
                 <div className="about-nav">
                     <div className="social-icons-about-side-nave">
@@ -115,7 +115,7 @@ function Projects() {
                             </h2>
                         </div>
                     </div>
-                <h1 className="bottom-nav"><Link to='/about' className="bottom-nav-link">ANUBHAV WHO?</Link></h1>
+                <h1 className="bottom-nav-projects"><Link to='/about' className="bottom-nav-projects-link">ANUBHAV WHO?</Link></h1>
                 </div>
             </div>
         </div>

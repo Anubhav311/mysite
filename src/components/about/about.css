@@ -141,3 +141,42 @@
     width: 40%;
     margin: 25px 0px;
 }
+
+.bottom-nav-about-container {
+    text-align: center;
+}
+
+.bottom-nav-about-link {
+    text-decoration: none;
+    color: black;
+    margin: auto;
+    display: inline-block;
+}
+
+.bottom-nav-about {
+    font-size: 6rem;
+    font-weight: 900;
+    margin: 200px auto 300px;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+}
+ 
+.bottom-nav-about:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 6px;
+    left: 50%;
+    position: relative;
+    background: #ff3f3f;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+    margin-bottom: 5px 0;
+}
+
+.bottom-nav-about:hover:after {
+    width: 100%; 
+    left: 0; 
+}
