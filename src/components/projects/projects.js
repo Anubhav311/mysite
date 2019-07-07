@@ -1,14 +1,32 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLinkedinIn, faTwitter, faGithub } from '@fortawesome/free-brands-svg-icons';
 
 import './projects.css';
 
 function Projects() {
     return (
-        <div className="projects-page-container">
-            <div className="logo-about">
-                <img src={require("../../assets/a.png")} alt="logo" className="name"/>
+        <div className="about-container">
+        <div className="side-nav-about">
+                <div className="logo-about">
+                    <img src={require("../../assets/a.png")} alt="logo" className="name"/>
+                </div>
+                <div className="about-nav">
+                    <div className="social-icons-about-side-nave">
+                        <a href="https://twitter.com/anubhav_bhambri" target="_blank" rel="noopener noreferrer">
+                        <FontAwesomeIcon className="fab" icon={faTwitter} size="2x" />
+                        </a>
+                        <a href="https://www.linkedin.com/in/anubhav-bhambri/" target="_blank" rel="noopener noreferrer">
+                        <FontAwesomeIcon className="fab" icon={faLinkedinIn} size="2x" />
+                        </a>
+                        <a href="https://github.com/Anubhav311" target="_blank" rel="noopener noreferrer">
+                        <FontAwesomeIcon className="fab" icon={faGithub} size="2x" />
+                        </a>
+                    </div>
+                </div>
             </div>
+        <div className="projects-page-container">
             <div className="projects-heading-container">
                 <div className="projects-page-heading">
                     <h1>Here are some web apps I've created</h1>
@@ -100,6 +118,7 @@ function Projects() {
                 <h1 className="bottom-nav"><Link to='/about' className="bottom-nav-link">ANUBHAV WHO?</Link></h1>
                 </div>
             </div>
+        </div>
         </div>
     )
 }

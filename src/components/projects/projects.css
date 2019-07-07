@@ -4,6 +4,10 @@
     background: whitesmoke;
     display: flex;
     flex-direction: column;
+    width: 80%;
+    margin: 0 50px 0 auto;
+    overflow: auto;
+    height: 100%;
 }
 
 .projects-page-heading {
@@ -13,10 +17,10 @@
 }
 
 .projects-heading-container {
-    width: 80%;
     margin: 0 50px 0 auto;
     overflow: auto;
     height: 100%;
+    padding-right: 1px;
 }
 
 .projects-page-heading::after {
