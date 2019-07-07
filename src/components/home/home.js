@@ -1,10 +1,10 @@
 import React from "react";
 import { useState, useEffect, useRef } from "react";
 import { Link } from 'react-router-dom';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import {library, dom } from '@fortawesome/fontawesome-svg-core';
-// import {fas, faStar, faTrophy, faThumbsUp, faChevronDown, faChevronUp} from '@fortawesome/free-solid-svg-icons';
-// import { faGithubSquare, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+// import {fas, faStar, faTrophy, faThumbsUp, faChevronDown, faChevronUp, faHome} from '@fortawesome/free-solid-svg-icons';
+import { faLinkedinIn, faTwitter, faGithub } from '@fortawesome/free-brands-svg-icons';
 
 import './home.css';
 
@@ -68,13 +68,13 @@ function Home() {
           </div>
           <div className="social-icons">
             <a href="https://twitter.com/anubhav_bhambri" target="_blank" rel="noopener noreferrer">
-              <i className="fab fa-twitter fa-2x"></i>
+              <FontAwesomeIcon className="fab" icon={faTwitter} size="2x" />
             </a>
             <a href="https://www.linkedin.com/in/anubhav-bhambri/" target="_blank" rel="noopener noreferrer">
-              {/* <FontAwesomeIcon icon={['fab', 'facebook-f']} /> */}
+              <FontAwesomeIcon className="fab" icon={faLinkedinIn} size="2x" />
             </a>
             <a href="https://github.com/Anubhav311" target="_blank" rel="noopener noreferrer">
-              <i className="fab fa-github fa-2x"></i>
+              <FontAwesomeIcon className="fab" icon={faGithub} size="2x" />
             </a>
           </div>
         </div>

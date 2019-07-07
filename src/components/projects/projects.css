@@ -89,6 +89,7 @@
   }
   .projects .project-text {
     padding: 20px;
+    background: white;
   }
   .projects .project-text h2 {
     font-size: 2rem;
