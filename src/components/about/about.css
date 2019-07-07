@@ -30,7 +30,7 @@
 }
 
 @media (max-width: 550px) {
-    .navbar .logo-about {
+    .side-nav-about .logo-about {
       width: 77px;
       margin-top: 3px;
     }
@@ -38,6 +38,61 @@
 .logo-about img {
     width: 100%;
   }
+  
+.about-nav {
+    margin: 100% auto 0px;
+}
+
+.social-icons-about-side-nave {
+    display: flex;
+    flex-direction: column;
+}
+
+.side-nav-about .social-icons-about-side-nave {
+    background-color: #90aae5;
+    padding: 15px 20px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 50px;
+  }
+
+.social-icons-about-side-nave .fab {
+    margin: 10px 0px;
+}
+
+.side-nav-about .social-icons-about-side-nave .fab {
+    color: white;
+  }
+
+.side-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: space-between;
+}
+
+.side-nav-about .social-icons-about-side-nave a:visited {
+    color: white;
+  }
+  @media (max-width: 550px) {
+    .side-nav-about .social-icons-about-side-nave .fab {
+      font-size: 2.7rem;
+      color: white;
+    }
+  }
+  .side-nav-about .social-icons-about-side-nave .fab:hover {
+    color: black;
+    cursor: pointer;
+  }
+
+.side-nav-about {
+    height: 100%;
+    margin: auto;
+    display: flex;
+    /* justify-items: end; */
+    align-items: flex-end;
+}
 
 .content h1 {
     font-size: 3rem;

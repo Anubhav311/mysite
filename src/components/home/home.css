@@ -37,7 +37,7 @@
     width: 100%;
   }
   .navbar .social-icons {
-    width: 200px;
+    width: auto;
     background-color: #90aae5;
     padding: 15px 20px;
     border-radius: 40px;
@@ -53,6 +53,7 @@
   
   .navbar .social-icons .fab {
     color: white;
+    margin: 0 10px;
   }
   
   .navbar .social-icons a:visited {

@@ -1,13 +1,28 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLinkedinIn, faTwitter, faGithub } from '@fortawesome/free-brands-svg-icons';
 
 import './about.css';
 
 function About() {
     return (
         <div className="about-container">
-            <div>
+            <div className="side-nav-about">
                 <div className="logo-about">
                     <img src={require("../../assets/a.png")} alt="logo" className="name"/>
+                </div>
+                <div className="about-nav">
+                    <div className="social-icons-about-side-nave">
+                        <a href="https://twitter.com/anubhav_bhambri" target="_blank" rel="noopener noreferrer">
+                        <FontAwesomeIcon className="fab" icon={faTwitter} size="2x" />
+                        </a>
+                        <a href="https://www.linkedin.com/in/anubhav-bhambri/" target="_blank" rel="noopener noreferrer">
+                        <FontAwesomeIcon className="fab" icon={faLinkedinIn} size="2x" />
+                        </a>
+                        <a href="https://github.com/Anubhav311" target="_blank" rel="noopener noreferrer">
+                        <FontAwesomeIcon className="fab" icon={faGithub} size="2x" />
+                        </a>
+                    </div>
                 </div>
             </div>
             <div className="heading-content-container">
