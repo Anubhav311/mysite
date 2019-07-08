@@ -1,5 +1,5 @@
 .App {
-  /* background: whitesmoke; */
+  background: whitesmoke;
   height: 100vh;
 }
 
@@ -37,7 +37,7 @@
     width: 100%;
   }
   .navbar .social-icons {
-    width: 200px;
+    width: auto;
     background-color: #90aae5;
     padding: 15px 20px;
     border-radius: 40px;
@@ -52,20 +52,21 @@
   }
   
   .navbar .social-icons .fab {
-    color: hsl(213, 19%, 20%)
+    color: white;
+    margin: 0 10px;
   }
   
   .navbar .social-icons a:visited {
-    color: hsl(213, 19%, 20%);
+    color: white;
   }
   @media (max-width: 550px) {
     .navbar .social-icons .fab {
       font-size: 2.7rem;
-      color: hsl(213, 19%, 20%)
+      color: white;
     }
   }
   .navbar .social-icons .fab:hover {
-    color: white;
+    color: black;
     cursor: pointer;
   }
 
@@ -85,7 +86,7 @@
     width: 100%;
   }
 
-
+/*****************************/
 
 .bottom-menu{
     position: fixed;
@@ -124,7 +125,7 @@
     color: #90aae5;
 }
 
-.projects {
+.projects-route {
     font-family: "nimbus-sans-extended",sans-serif;
     font-size: 20px;
     padding: 10px;
@@ -168,7 +169,7 @@
     left: 0; 
 }
 
-.projects:after {
+.projects-route:after {
     background: none repeat scroll 0 0 transparent;
     bottom: 0;
     content: "";
@@ -182,7 +183,7 @@
     margin-bottom: 5px 0;
 }
 
-.projects:hover:after {
+.projects-route:hover:after {
     width: 100%; 
     left: 0; 
 }
@@ -213,7 +214,7 @@
 }
 
 .hola {
-    -webkit-text-fill-color: white;
+    -webkit-text-fill-color: whitesmoke;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #ff3f3f;
     font-family: "nimbus-sans-extended",sans-serif;
