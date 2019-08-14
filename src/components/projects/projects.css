@@ -10,6 +10,12 @@
     height: 100%;
 }
 
+@media (max-width: 900px) {
+  .projects-page-container {
+    margin: 0 0 0 auto;
+  }
+}
+
 .projects-page-heading {
     font-size: 8rem;
     font-weight: 900;
@@ -35,6 +41,12 @@
     overflow: auto;
     height: 100%;
     padding-right: 1px;
+}
+
+@media (max-width: 900px) {
+  .projects-heading-container {
+    margin: 0 0 0 auto;
+  }
 }
 
 .projects-page-heading::after {
@@ -91,9 +103,10 @@
     overflow: hidden;
     margin-bottom: 100px;
   }
+
   @media (max-width: 800px) {
     .projects .project-container {
-      margin-bottom: 85px;
+      margin: 85px auto;
       width: 70%;
     }
   }
@@ -167,7 +180,7 @@
 @media (max-width: 900px) {
   .bottom-nav-projects {
       font-size: 4rem;
-      margin: 100px auto 200px;
+      margin: 100px auto 100px;
   }
 }
 
