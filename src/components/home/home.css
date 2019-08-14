@@ -212,11 +212,11 @@
     align-items: center;
 }
 
-@media (max-width: 800px) {
+/* @media (max-width: 800px) {
   .root-main-text{
     flex-direction: column;
   }
-}
+} */
 
 .hola {
     -webkit-text-fill-color: whitesmoke;
@@ -229,6 +229,12 @@
     font-weight: bold;
     line-height: 0.9;
 }
+
+@media (max-width: 800px) {
+  .hola {
+    font-size: 6rem;
+  }
+}
   
 .anubhav {
     font-family: "nimbus-sans-extended",sans-serif;
@@ -237,6 +243,12 @@
     line-height: 0.9;
     letter-spacing: 2px;
     font-weight: 900;
+}
+
+@media (max-width: 800px) {
+  .anubhav {
+    font-size: 3rem;
+  }
 }
 
 .heading-subheading-container {
@@ -255,3 +267,8 @@
     border-right: 0.2rem solid black;
 }
 
+@media (max-width: 800px) {
+  .subheading {
+    font-size: 1.5rem;
+  }
+}
