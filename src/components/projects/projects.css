@@ -141,8 +141,16 @@
     margin: 300px auto 0px;
     display: inline-block;
     cursor: pointer;
+    text-align: center;
 }
- 
+
+@media (max-width: 900px) {
+  .bottom-nav-projects {
+      font-size: 4rem;
+      margin: 100px auto 200px;
+  }
+}
+
 .bottom-nav-projects:after {
     background: none repeat scroll 0 0 transparent;
     bottom: 0;
