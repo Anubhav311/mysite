@@ -13,10 +13,38 @@
     padding-right: 15%;
 }
 
+@media (max-width: 900px) {
+    .heading-content-container {
+        margin: 0 15px 0 auto;
+        padding-right: 5%;
+    }
+}
+
+@media (max-width: 900px) {
+    .heading-content-container {
+        margin: 0 0 0 auto;
+        padding-right: 5%;
+    }
+}
+
 .heading {
     font-size: 8rem;
     font-weight: 900;
     margin: 100px auto;
+}
+
+@media (max-width: 900px) {
+    .heading {
+        font-size: 6rem;
+        margin: 50px auto;
+    }
+}
+
+@media (max-width: 700px) {
+    .heading {
+        font-size: 4rem;
+        margin: 25px auto;
+    }
 }
 
 .logo-about {
@@ -29,12 +57,14 @@
     left: 50px;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 700px) {
     .side-nav-about .logo-about {
-      width: 77px;
+      /* width: 77px; */
       margin-top: 3px;
+      left: 10px
     }
   }
+
 .logo-about img {
     width: 100%;
   }
@@ -55,7 +85,7 @@
     display: flex;
     justify-content: space-between;
     margin: 20px 0 50px;
-  }
+}
 
 .social-icons-about-side-nave .fab {
     margin: 10px 0px;
@@ -63,7 +93,7 @@
 
 .side-nav-about .social-icons-about-side-nave .fab {
     color: white;
-  }
+}
 
 .side-nav {
     display: flex;
@@ -74,17 +104,17 @@
 
 .side-nav-about .social-icons-about-side-nave a:visited {
     color: white;
-  }
-  @media (max-width: 550px) {
+}
+@media (max-width: 550px) {
     .side-nav-about .social-icons-about-side-nave .fab {
-      font-size: 2.7rem;
-      color: white;
+        font-size: 2.7rem;
+        color: white;
     }
-  }
-  .side-nav-about .social-icons-about-side-nave .fab:hover {
+}
+.side-nav-about .social-icons-about-side-nave .fab:hover {
     color: black;
     cursor: pointer;
-  }
+}
 
 .side-nav-about {
     height: 100%;
