@@ -10,10 +10,30 @@
     height: 100%;
 }
 
+@media (max-width: 900px) {
+  .projects-page-container {
+    margin: 0 0 0 auto;
+  }
+}
+
 .projects-page-heading {
     font-size: 8rem;
     font-weight: 900;
     margin: 100px auto;
+}
+
+@media (max-width: 900px) {
+  .projects-page-heading {
+    font-size: 6rem;
+    margin: 50px auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .projects-page-heading {
+    font-size: 4rem;
+    margin: 30px auto;
+  }
 }
 
 .projects-heading-container {
@@ -23,6 +43,12 @@
     padding-right: 1px;
 }
 
+@media (max-width: 900px) {
+  .projects-heading-container {
+    margin: 0 0 0 auto;
+  }
+}
+
 .projects-page-heading::after {
     content: '';
     height: 15px;
@@ -30,6 +56,12 @@
     background: #ff3f3f;
     width: 40%;
     margin: 25px 0px;
+}
+
+@media (max-width: 900px) {
+  .projects-page-heading::after {
+    height: 7px;
+  }
 }
 
 .projects-heading-container::-webkit-scrollbar {
@@ -71,9 +103,10 @@
     overflow: hidden;
     margin-bottom: 100px;
   }
+
   @media (max-width: 800px) {
     .projects .project-container {
-      margin-bottom: 85px;
+      margin: 85px auto;
       width: 70%;
     }
   }
@@ -141,8 +174,16 @@
     margin: 300px auto 0px;
     display: inline-block;
     cursor: pointer;
+    text-align: center;
 }
- 
+
+@media (max-width: 900px) {
+  .bottom-nav-projects {
+      font-size: 4rem;
+      margin: 100px auto 100px;
+  }
+}
+
 .bottom-nav-projects:after {
     background: none repeat scroll 0 0 transparent;
     bottom: 0;
