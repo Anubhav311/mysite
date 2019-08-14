@@ -13,6 +13,13 @@
 @media (max-width: 900px) {
   .projects-page-container {
     margin: 0 0 0 auto;
+    width: 95%;
+  }
+}
+
+@media (max-width: 900px) {
+  .side-nav-about {
+    display: none;
   }
 }
 
