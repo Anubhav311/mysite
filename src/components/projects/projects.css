@@ -142,6 +142,7 @@
   }
   .projects .project-text a {
     color: black;
+    margin-left: 5px;
   }
   
   .projects .project-text a:hover {

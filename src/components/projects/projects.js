@@ -35,6 +35,23 @@ function Projects() {
                     <div class="project-container">
                         <div class="project">
                             <a href="https://clone-coding-client.herokuapp.com/" target="_blank">
+                                <img src={require("../../assets/roadtrip.png")} alt=""/>
+                            </a>
+                        </div>
+                        <div class="project-text">
+                            <div class="title-line"></div>
+                            <p>Front-end with React, Google Maps and Back-end with Django</p>  
+                            <h2>Roadtrip 
+                                <a href="https://github.com/lambda-mud" target="_blank" rel="noopener noreferrer">
+                                    <FontAwesomeIcon className="fab fa-github fa-1x" icon={faGithub} size="1x" />
+                                </a>
+                            </h2>
+                        </div>
+                    </div>
+
+                    <div class="project-container">
+                        <div class="project">
+                            <a href="https://clone-coding-client.herokuapp.com/" target="_blank">
                                 <img src={require("../../assets/challengejs.png")} alt=""/>
                             </a>
                         </div>
@@ -42,8 +59,8 @@ function Projects() {
                             <div class="title-line"></div>
                             <p>Front-end with React, CodeMirror, WebWorkers and Back-end with Node.js and Express</p>  
                             <h2>ChallengeJS 
-                                <a href="https://github.com/labs13-clone" target="_blank">
-                                    <i class="fab fa-github fa-1x"></i>
+                                <a href="https://github.com/labs13-clone" target="_blank" rel="noopener noreferrer">
+                                    <FontAwesomeIcon className="fab fa-github fa-1x" icon={faGithub} size="1x" />
                                 </a>
                             </h2>
                         </div>
@@ -59,8 +76,8 @@ function Projects() {
                             <div class="title-line"></div>
                             <p>Front-end with React and Redux</p>  
                             <h2>Win-Place-Show 
-                                <a href="https://github.com/winplaceshow/wps-frontend" target="_blank">
-                                    <i class="fab fa-github fa-1x"></i>
+                                <a href="https://github.com/winplaceshow" target="_blank" rel="noopener noreferrer">
+                                    <FontAwesomeIcon className="fab fa-github fa-1x" icon={faGithub} size="1x" />
                                 </a>
                             </h2>
                         </div>
@@ -76,8 +93,8 @@ function Projects() {
                             <div class="title-line"></div>
                             <p>Front-end with React.js</p>  
                             <h2>Instagram Clone 
-                                <a href="https://github.com/Anubhav311/React-Insta-Clone" target="_blank">
-                                    <i class="fab fa-github fa-1x"></i>
+                                <a href="https://github.com/Anubhav311/React-Insta-Clone" target="_blank" rel="noopener noreferrer">
+                                    <FontAwesomeIcon className="fab fa-github fa-1x" icon={faGithub} size="1x" />
                                 </a>
                             </h2>
                         </div>
@@ -93,8 +110,8 @@ function Projects() {
                             <div class="title-line"></div>
                             <p>Todo-list with React.js</p>        
                             <h2>My Todo List                         
-                                <a href="https://github.com/Anubhav311/Redux-Todo" target="_blank">
-                                    <i class="fab fa-github fa-1x"></i>
+                                <a href="https://github.com/Anubhav311/Redux-Todo" target="_blank" rel="noopener noreferrer">
+                                    <FontAwesomeIcon className="fab fa-github fa-1x" icon={faGithub} size="1x" />
                                 </a>
                             </h2>
                         </div>
@@ -109,8 +126,8 @@ function Projects() {
                             <div class="title-line"></div>
                             <p>Landing Page with HTML, LESS and vanilla JS</p>        
                             <h2>Donor Management
-                                <a href="https://github.com/donor-management/Landing-Page" target="_blank">
-                                    <i class="fab fa-github fa-1x"></i>
+                                <a href="https://github.com/donor-management" target="_blank" rel="noopener noreferrer">
+                                    <FontAwesomeIcon className="fab fa-github fa-1x" icon={faGithub} size="1x" />
                                 </a>
                             </h2>
                         </div>
