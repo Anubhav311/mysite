@@ -35,6 +35,23 @@ function Projects() {
                     <div class="project-container">
                         <div class="project">
                             <a href="https://clone-coding-client.herokuapp.com/" target="_blank">
+                                <img src={require("../../assets/roadtrip.png")} alt=""/>
+                            </a>
+                        </div>
+                        <div class="project-text">
+                            <div class="title-line"></div>
+                            <p>Front-end with React, Google Maps and Back-end with Django</p>  
+                            <h2>Roadtrip 
+                                <a href="https://github.com/lambda-mud" target="_blank" rel="noopener noreferrer">
+                                    <FontAwesomeIcon className="fab fa-github fa-1x" icon={faGithub} size="1x" />
+                                </a>
+                            </h2>
+                        </div>
+                    </div>
+
+                    <div class="project-container">
+                        <div class="project">
+                            <a href="https://clone-coding-client.herokuapp.com/" target="_blank">
                                 <img src={require("../../assets/challengejs.png")} alt=""/>
                             </a>
                         </div>
