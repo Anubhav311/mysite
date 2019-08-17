@@ -40,7 +40,7 @@ function About() {
                     <p>I love collaborating with others! Say hi at <span style={{'color':'#3aa37b'}}>anubhavbhambri1@gmail.com</span> or reach out on social media.</p>
                 </div>
                 <div className="bottom-nav-about-container">
-                <h1 className="bottom-nav-about"><Link to='/projects' className="bottom-nav-about-link">MY WORK</Link></h1>
+                    <h1 className="bottom-nav-about"><Link to='/projects' className="bottom-nav-about-link">MY WORK</Link></h1>
                 </div>
             </div>
         </div>
