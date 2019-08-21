@@ -9,9 +9,6 @@ function Projects() {
     return (
         <div className="about-container">
         <div className="side-nav-about">
-                {/* <div className="logo-about">
-                    <a href="/"><img src={require("../../assets/a.png")} alt="logo" className="name"/></a>
-                </div> */}
                 <div className="about-nav">
                     <div className="social-icons-about-side-nave">
                         <a href="https://twitter.com/anubhav_bhambri" target="_blank" rel="noopener noreferrer">
@@ -65,7 +62,24 @@ function Projects() {
                             </h2>
                         </div>
                     </div>
-                        
+
+                    <div class="project-container">
+                        <div class="project">
+                            <a href="https://jolly-meitner-025780.netlify.com/home/" target="_blank">
+                                <img src={require("../../assets/modern-day-researcher.png")} alt=""/>
+                            </a>
+                        </div>
+                        <div class="project-text">
+                            <div class="title-line"></div>
+                            <p>Back-end with Node, PostgreSQL and Knex and Front-end with React and Redux</p>  
+                            <h2>Modern Day Researcher 
+                                <a href="https://github.com/lambda-modern-day-researcher" target="_blank" rel="noopener noreferrer">
+                                    <FontAwesomeIcon className="fab fa-github fa-1x" icon={faGithub} size="1x" />
+                                </a>
+                            </h2>
+                        </div>
+                    </div>
+
                     <div class="project-container">
                         <div class="project">
                             <a href="https://angry-blackwell-b2e2df.netlify.com/" target="_blank">

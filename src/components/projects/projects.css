@@ -6,7 +6,7 @@
     flex-direction: column;
     width: 80%;
     margin: 0 50px 0 auto;
-    overflow: auto;
+    /* overflow: auto; */
     height: 100%;
 }
 
